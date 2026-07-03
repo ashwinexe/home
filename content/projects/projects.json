@@ -1,0 +1,31 @@
+{
+  "featured": [
+    {
+      "id": "project-1",
+      "name": "Personal Website",
+      "description": "This very website you're looking at! Built with Next.js, Tailwind CSS, and Framer Motion.",
+      "longDescription": "A personal portfolio website with Teenage Engineering aesthetic and bento-style layout. Features live activity integration with Spotify and gaming status.",
+      "image": "/images/projects/personal-site.png",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "links": {
+        "live": "https://ashwinexe.com",
+        "github": "https://github.com/ashwinexe/home"
+      },
+      "featured": true
+    }
+  ],
+  "dump": [
+    {
+      "name": "Dotfiles",
+      "description": "My personal development environment configuration",
+      "url": "https://github.com/ashwinexe/dotfiles",
+      "emoji": "⚙️"
+    },
+    {
+      "name": "Cool Project",
+      "description": "An experimental side project",
+      "url": "https://github.com/ashwinexe",
+      "emoji": "🧪"
+    }
+  ]
+}

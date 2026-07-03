@@ -1,0 +1,64 @@
+{
+  "experiences": [
+    {
+      "id": "devfolio",
+      "company": "Devfolio",
+      "role": "Head of Community",
+      "period": "2023 - Present",
+      "location": "Remote",
+      "description": "Leading community initiatives and building thriving developer communities across India. Organizing hackathons, creating developer content, and fostering connections.",
+      "image": "/images/work/devfolio.png",
+      "highlights": [
+        "Led community growth initiatives",
+        "Organized large-scale hackathons",
+        "Built developer relations programs"
+      ],
+      "url": "https://devfolio.co"
+    },
+    {
+      "id": "github",
+      "company": "GitHub",
+      "role": "Campus Expert",
+      "period": "2021 - 2023",
+      "location": "Remote",
+      "description": "Part of the GitHub Campus Experts program, helping students learn about open source, Git, and building communities on campus.",
+      "image": "/images/work/github.png",
+      "highlights": [
+        "Trained students on Git & GitHub",
+        "Organized campus workshops",
+        "Built open source communities"
+      ],
+      "url": "https://github.com"
+    },
+    {
+      "id": "mlh",
+      "company": "Major League Hacking",
+      "role": "MLH Fellow / Coach",
+      "period": "2020 - 2022",
+      "location": "Remote",
+      "description": "Participated in MLH programs and later coached fellow students through hackathons and open source contributions.",
+      "image": "/images/work/mlh.png",
+      "highlights": [
+        "Mentored hackathon participants",
+        "Contributed to open source projects",
+        "Led workshop sessions"
+      ],
+      "url": "https://mlh.io"
+    },
+    {
+      "id": "codeday",
+      "company": "CodeDay",
+      "role": "Community Volunteer",
+      "period": "2019 - 2021",
+      "location": "Remote",
+      "description": "Volunteered with CodeDay to help students learn to code and build their first projects through beginner-friendly events.",
+      "image": "/images/work/codeday.png",
+      "highlights": [
+        "Supported beginner programmers",
+        "Organized coding events",
+        "Created educational content"
+      ],
+      "url": "https://codeday.org"
+    }
+  ]
+}

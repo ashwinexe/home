@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --te-beige: #f5f5f0;
+  --te-dark: #1a1a1a;
+  --te-orange: #ff6600;
+  --te-gray: #e5e5e0;
+  --te-border: 2px;
+  --te-radius: 8px;
+}
+
+body {
+  @apply bg-te-beige text-te-dark font-mono antialiased;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Teenage Engineering frame effect */
+.te-frame {
+  @apply border-2 border-te-dark rounded-te relative;
+}
+
+/* Corner indicators for TE aesthetic */
+.te-corner {
+  @apply absolute w-3 h-3;
+}
+
+.te-corner::before,
+.te-corner::after {
+  content: "";
+  @apply absolute bg-te-dark;
+}
+
+.te-corner-tl {
+  @apply top-2 left-2;
+}
+.te-corner-tl::before {
+  @apply w-3 h-0.5 top-0 left-0;
+}
+.te-corner-tl::after {
+  @apply w-0.5 h-3 top-0 left-0;
+}
+
+.te-corner-tr {
+  @apply top-2 right-2;
+}
+.te-corner-tr::before {
+  @apply w-3 h-0.5 top-0 right-0;
+}
+.te-corner-tr::after {
+  @apply w-0.5 h-3 top-0 right-0;
+}
+
+.te-corner-bl {
+  @apply bottom-2 left-2;
+}
+.te-corner-bl::before {
+  @apply w-3 h-0.5 bottom-0 left-0;
+}
+.te-corner-bl::after {
+  @apply w-0.5 h-3 bottom-0 left-0;
+}
+
+.te-corner-br {
+  @apply bottom-2 right-2;
+}
+.te-corner-br::before {
+  @apply w-3 h-0.5 bottom-0 right-0;
+}
+.te-corner-br::after {
+  @apply w-0.5 h-3 bottom-0 right-0;
+}
+
+/* Bento grid */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));  /* Mobile: 2 columns */
+  grid-auto-rows: 112px;
+  gap: 0.625rem;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));  /* Small screens: 2 columns */
+    grid-auto-rows: 120px;
+    gap: 0.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .bento-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));  /* Tablet: 6 columns */
+    grid-auto-rows: 120px;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bento-grid {
+    grid-template-columns: repeat(8, minmax(0, 1fr));  /* Desktop: 8 columns */
+    grid-auto-rows: 140px;
+  }
+}
+
+/* Selection color */
+::selection {
+  @apply bg-te-orange text-white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-te-gray;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-te-dark rounded-full;
+}
+
+/* Link hover effect */
+a {
+  @apply transition-colors duration-200;
+}
+
+.blog-reading-shell {
+  --blog-block-gap: 1.25rem;
+  --blog-line-height: 2rem;
+  --blog-list-gap: 0.5rem;
+}
+
+.blog-reading-shell[data-reading-layout="compact"] {
+  --blog-block-gap: 1rem;
+  --blog-line-height: 1.75rem;
+  --blog-list-gap: 0.375rem;
+}
+
+.blog-reading-shell[data-reading-layout="wide"] {
+  --blog-block-gap: 1.5rem;
+  --blog-line-height: 2.15rem;
+  --blog-list-gap: 0.65rem;
+}
+
+/* Focus styles */
+*:focus-visible {
+  @apply outline-none ring-2 ring-te-orange ring-offset-2 ring-offset-te-beige;
+}

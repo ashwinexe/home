@@ -1,0 +1,47 @@
+[
+  {
+    "id": "profile",
+    "size": "4x2"
+  },
+  {
+    "id": "latestBlog",
+    "size": "2x2"
+  },
+  {
+    "id": "liveActivity",
+    "size": "2x4"
+  },
+
+  {
+    "id": "talks",
+    "size": "2x2",
+    "backgroundImage": "/images/talks/IMG_1329.JPG"
+  },
+  {
+    "id": "work",
+    "size": "2x2",
+    "backgroundImage": "/images/shots/stormtrooper.jpeg"
+  },
+  {
+    "id": "quote",
+    "size": "2x2"
+    
+  },
+  {
+    "id": "shot",
+    "size": "2x2"
+  },
+  {
+    "id": "projects",
+    "size": "2x2",
+    "backgroundImage": "/images/shots/DSC03624.jpg"
+  },
+  {
+    "id": "featuredProject",
+    "size": "2x2"
+  },
+  {
+    "id": "now",
+    "size": "2x2"
+  }
+]

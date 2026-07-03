@@ -1,0 +1,19 @@
+{
+  "topics": [
+    {
+      "title": "Building Developer Communities",
+      "description": "How to grow and nurture thriving developer communities from the ground up. Covers community strategy, engagement, and measuring success.",
+      "duration": "30-45 min"
+    },
+    {
+      "title": "Hackathons: From Participant to Organizer",
+      "description": "A journey through the hackathon ecosystem - what I learned participating in 50+ hackathons and now organizing them.",
+      "duration": "20-30 min"
+    },
+    {
+      "title": "DevRel in the Modern Era",
+      "description": "What it takes to build authentic developer relations programs that actually help developers.",
+      "duration": "30-45 min"
+    }
+  ]
+}
